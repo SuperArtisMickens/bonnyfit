@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+        <title>FITBonny HomePage</title>
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #6320bb; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-center2 {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+</style>
+
+
+
+    </head>
+    
+    <img src="fitbonnylogo2.jpg" alt="fitbonnylogo2" style="width:200px;height:128px;">
+    <body>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="http://www.google.com/>Sign-Off</a>
+            <!-- <a href="#contact">Contact</a>
+            <a href="#about">About</a> -->
+          </div>
+
+          
+
+
+        <!-- <h1> Hello, React !!</h1> -->
+        <!-- <div id="root"><h1>hello</h1></div>
+        <div id="root2"></div>
+        <div id="root3"></div>
+        <div id="button1"></div> -->
+        <form>
+          
+          <!-- <div>
+            <Button role="button">BMI </Button>
+          </div>
+          <div>
+            <Button variant="btn btn-success">BFI</Button>
+          </div>
+
+          <Button onClick="button1">
+            Button
+          </Button> -->
+
+      
+            <div class="vertical-center">
+              <a href="BMI.html"><button class="button button2">BMI</a></button>
+              
+            </div>
+    
+            <div class="vertical-center2">
+              <a href="BFI.html"><button class="button button2">BFI</a></button>
+            </div>
+
+            <!-- <button onclick="bmi.html">
+              Say Hello
+            <button> -->
+
+              <!-- <p><a href="BMI.html">Visit W3Schools.com!</a></p> -->
+      
+            
+        </form>
+        <script src ="index.js" type="text/babel"></script>
+
+        <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+          import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+        
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          const firebaseConfig = {
+            apiKey: "AIzaSyBbWclBLEfNar-0axGDP6V_Oajdl5sMuXI",
+            authDomain: "fitbonny-5060d.firebaseapp.com",
+            projectId: "fitbonny-5060d",
+            storageBucket: "fitbonny-5060d.appspot.com",
+            messagingSenderId: "780762714847",
+            appId: "1:780762714847:web:58f27a8331c7a491dd4f6a",
+            measurementId: "G-34BEZPTBQJ"
+          };
+        
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+          const analytics = getAnalytics(app);
+        </script>
+    </body>
+</html>
